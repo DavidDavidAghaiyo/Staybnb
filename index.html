@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Staybnb</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <nav id="navBar">
+        <img src="images/logo.png" class="logo" />
+        <ul class="nav-links">
+          <li><a href="#" class="active">Popular Places</a></li>
+          <li><a href="#">Travel Outisde</a></li>
+          <li><a href="#">Online Packages</a></li>
+        </ul>
+        <a href="#" class="register-Btn">Register Now</a>
+        <i class="bi bi-list" onclick="togglebtn()"></i>
+      </nav>
+      <div class="container">
+        <h1>Find Your Next Stop</h1>
+        <div class="search-bar">
+          <form>
+            <div class="location-input">
+              <label>Location</label>
+              <input type="text" placeholder="Where are you going" />
+            </div>
+            <div>
+              <label>Check In</label>
+              <input type="text" placeholder="Add Date" />
+            </div>
+            <div>
+              <label>Check Out</label>
+              <input type="text" placeholder="Add Date" />
+            </div>
+            <div>
+              <label>Guest</label>
+              <input type="text" placeholder="Add Guest" />
+            </div>
+            <button type="submit"><img src="images/search.png" /></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="sub-title">Exclusives</h2>
+      <div class="exclusives">
+        <div>
+          <img src="images/image-1.png" />
+          <span>
+            <h3>London</h3>
+            <p>Starts at $260</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-2.png" />
+          <span>
+            <h3>Nepal</h3>
+            <p>Starts at $120</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-3.png" />
+          <span>
+            <h3>Madagascar</h3>
+            <p>Starts at $360</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-4.png" />
+          <span>
+            <h3>Thailand</h3>
+            <p>Starts at $208</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-5.png" />
+          <span>
+            <h3>France</h3>
+            <p>Starts at $455</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-6.png" />
+          <span>
+            <h3>Netherlands</h3>
+            <p>Starts at $235</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-7.png" />
+          <span>
+            <h3>New York</h3>
+            <p>Starts at $500</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-8.png" />
+          <span>
+            <h3>Chicago</h3>
+            <p>Starts at $450</p>
+          </span>
+        </div>
+        <div>
+          <a href="listings.html"><img src="images/image-9.png" /></a>
+          <span>
+            <h3>San Francisco</h3>
+            <p>Starts at $255</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-10.png" />
+          <span>
+            <h3>Seoul</h3>
+            <p>Starts at $300</p>
+          </span>
+        </div>
+      </div>
+
+      <h2 class="sub-title">Trending Places</h2>
+      <div class="trending">
+        <div>
+          <img src="images/dubai.png" />
+          <h3>Dubai</h3>
+        </div>
+        <div>
+          <img src="images/new-york.png" />
+          <h3>New York</h3>
+        </div>
+        <div>
+          <img src="images/paris.png" />
+          <h3>Paris</h3>
+        </div>
+        <div>
+          <img src="images/new-delhi.png" />
+          <h3>New Delhi</h3>
+        </div>
+      </div>
+
+      <div class="cta">
+        <h3>
+          Sharing <br />
+          Is Earning Now
+        </h3>
+        <p>
+          Great opportunity to make money by <br />
+          sharing your extra space.
+        </p>
+        <a href="#" class="cta-btn">Know More</a>
+      </div>
+
+      <h2 class="sub-title">Travellers Stories</h2>
+      <div class="stories">
+        <div>
+          <img src="images/story-1.png" />
+          <p>Popular European countries with a budget of just $7,000</p>
+        </div>
+        <div>
+          <img src="images/story-2.png" />
+          <p>Travelled more than 100 Countries in less than a year</p>
+        </div>
+        <div>
+          <img src="images/story-3.png" />
+          <p>Best experience you get while travelling in Thailand</p>
+        </div>
+      </div>
+      <a href="#" class="start-btn">Start making memories</a>
+
+      <div class="about-msg">
+        <h2>About Staybnb</h2>
+        <p>
+          Staybnb is your gateway to unforgettable travel experiences, offering
+          a curated selection of unique accommodations that cater to every type
+          of traveler. Whether you're seeking a cozy retreat in the heart of the
+          city or a serene escape in nature, our diverse listings ensure you'll
+          find the perfect home away from home. At Staybnb, we prioritize
+          exceptional hospitality and aim to connect you with welcoming hosts
+          who are eager to share their local insights. Join us in exploring new
+          destinations and creating lasting memories—your adventure begins here!
+        </p>
+      </div>
+
+      <div class="footer">
+        <a href="https://facebook.com/"><i class="bi bi-facebook"></i></a>
+        <a href="https://youtube.com/"><i class="bi bi-youtube"></i></a>
+        <a href="https://twitter.com/"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://linkedin.com/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://instagram.com/"><i class="bi bi-instagram"></i></a>
+        <hr />
+        <p>Copyright @ 2024, Staybnb</p>
+      </div>
+    </div>
+
+    <script>
+      var navBar = document.getElementById("navBar");
+
+      function togglebtn() {
+        navBar.classList.toggle("hidemenu");
+      }
+    </script>
+  </body>
+</html>
