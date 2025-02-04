@@ -743,6 +743,10 @@ nav.navbar-white .bi-list {
   margin-right: 30px;
 }
 
+.avail-btn {
+  cursor: pointer;
+}
+
 .host h2 {
   margin-bottom: 10px;
   font-weight: 500;
